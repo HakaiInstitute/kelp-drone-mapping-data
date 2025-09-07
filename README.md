@@ -19,8 +19,7 @@ Description of the methodology
 
 ## Reports
 
-Any link to reports associated with this dataset. The reports can be made available
-within this same repository.
+The metadata report associated with this dataset can be found [here](https://github.com/HakaiInstitute/kelp-drone-mapping-data/blob/main/docs/logos/Metadata_%20Time%20series%20annual%20kelp%20canopy%20area%20derived%20from%20drone%20surveys%2C%20Central%20Coast%2C%20British%20Columbia%20(ongoing).pdf)
 
 ## Resources
 
