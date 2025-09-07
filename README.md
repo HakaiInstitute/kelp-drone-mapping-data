@@ -1,7 +1,7 @@
 <div align='center'>
-    <a href='https://tula.org'><img height='75px' src=docs/logos/tula-logo.png /></a>
+    <a href='https://tula.org'><img height='75px' src=docs/tula-logo.png /></a>
     &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href='https://hakai.org'><img height='75px' src=docs/logos/hakai-logo.png /></a>
+    <a href='https://hakai.org'><img height='75px' src=docs/hakai-logo.png /></a>
 </div>
 
 # Time series of surface kelp canopy area derived from remotely piloted aerial systems (RPAS, or drone) surveys, Central Coast, British Columbia
