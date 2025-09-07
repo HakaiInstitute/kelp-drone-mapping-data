@@ -13,10 +13,6 @@ Drone surveys are conducted annually in July/August during low tide (<1.5 m, cha
 ```
 Reshitnyk, L., & Holmes, K. (2025). Time series of surface kelp canopy area derived from remotely piloted aerial systems (RPAS, or drone) surveys, Central Coast, British Columbia (v1.0). https://doi.org/10.21966/9cbv-ra30
 ```
-## Getting Started
-
-See issue [#1](/../../issues/1) for getting started steps. You can remove this section once the issue is complete.
-
 ## Method
 
 Description of the methodology
@@ -34,7 +30,7 @@ This data package includes a geodatabase which contains:
 - Polygon vector features of canopy kelp 
 - Polygon vector features of the area of interest (AOI) of each monitoring site
 - A metadata report (.pdf) which describes methods for imagery collection, generating orthomosaics and delineating kelp extent.
-- Data dictionary (spreadsheet) which describes the attributes of the polygon vector features for canopy kelp.
+- Data dictionaries (spreadsheets) which describe the attributes of the polygon vector features for canopy kelp. The data dictionaries are for the datasets included within the Kelp_CentralCoast_DroneTimeSeries.gdb
 
 ## How to contribute
 
