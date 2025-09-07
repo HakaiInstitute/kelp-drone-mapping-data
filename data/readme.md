@@ -1,5 +1,12 @@
-Please input data here. 
+This folder contains:
 
-While we do not endorse any specific folder structure or convention, we highly encourage maintaining consistency in both directory structure and naming conventions. 
+Kelp_CentralCoast_DroneTimeSeries.gdb.zip, which includes:
+* HakaiLongTermKelpSites_Points: Point locations of long term monitoring sites
+* Hakai_Kelp_RPAS_AOIS_CentralCoast: AOI polygons of long term monitoring sites
+* Kelp_Extents_Seasonal_RGBRPAS_AOIClipped: Polygons representing kelp coverage at each site over time
 
-Thoughtfully organizing these aspects will effectively mitigate potential future issues.
+Kelp_clipped_to_DroneAOIs_20250108.csv
+Table of kelp polygon data for each site. Each row represents an individual kelp polygon, and data can be aggregated by time and space
+
+The data dictionaries for these files are found in the root of the repository.
+
