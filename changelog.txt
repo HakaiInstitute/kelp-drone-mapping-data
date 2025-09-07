@@ -2,24 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [0.0.1] - yyyy-mm-dd
+## [1.0] - 2025-09-30
 
 Summary
 
 ### Added
 
-*
-* 
-*
-
-### Fixed
-
-* 
-
-### Changed
-
-*
-
-### Removed
-
-*
+* Three data dictionaries in the root of the repository
+* Two files in the data folder: Kelp_CentralCoast_DroneTimeSeries.gdb.zip and Kelp_clipped_to_DroneAOIs_20250108.csv
+* Updated the readme to include a summary of the project, citation, and links to associated reports
+* License
