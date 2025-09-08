@@ -8,14 +8,12 @@
 
 This data package represents a time series of canopy area of giant kelp, Macrocystis pyrifera, and bull kelp, Nereocystis luetkeana, derived from remotely piloted aerial system (RPAS or drones) surveys, along with relevant metadata. The kelp canopy is composed of the portions of fronds, stipes and blades floating on the surface of the water. RPAS surveys are conducted annually at long-term monitoring sites surveyed by the Hakai Institute on the Central Coast of British Columbia, Canada. These data are collected as part of the Hakai Institute Habitat Mapping Program whose broader goal is to document and understand long-term trends of kelp forests dynamics and drivers at local, regional and coast-wide scales. The Hakai Institute started using drones in 2015 as part of this work in order to capture site-level data on kelp forest distribution for long term ecological research. 
 
-Drone surveys are conducted annually in July/August during low tide (<1.5 m, chart datum) and collect RGB (red-green-blue) imagery. Canopy area is derived from drone-derived orthomosaics using a machine learning tool, the KelpOMatic, which automates the detection of extent of kelp canopy area present in high-resolution orthomosaics. Areal data are classified to species level. Outputs are reviewed by a trained analyst. Canopy area (m2) data are provided as vector features (shapefiles) in NAD83 UTM Zone 9 clipped to each site area of interest (AOI) to ensure the same areas are compared over time and then published to a geodatabase. 
-
 ```
 Reshitnyk, L., & Holmes, K. (2025). Time series of surface kelp canopy area derived from remotely piloted aerial systems (RPAS, or drone) surveys, Central Coast, British Columbia (v1.0). https://doi.org/10.21966/9cbv-ra30
 ```
 ## Method
 
-Description of the methodology
+Drone surveys are conducted annually in July/August during low tide (<1.5 m, chart datum) and collect RGB (red-green-blue) imagery. Canopy area is derived from drone-derived orthomosaics using a machine learning tool, the KelpOMatic, which automates the detection of extent of kelp canopy area present in high-resolution orthomosaics. Areal data are classified to species level. Outputs are reviewed by a trained analyst. Canopy area (m2) data are provided as vector features (shapefiles) in NAD83 UTM Zone 9 clipped to each site area of interest (AOI) to ensure the same areas are compared over time and then published to a geodatabase. 
 
 ## Reports
 
