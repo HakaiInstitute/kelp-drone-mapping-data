@@ -1,3 +1,2 @@
 Kelp_CentralCoast_DroneTimeSeries.gdb filter=lfs diff=lfs merge=lfs -text
-Kelp_clipped_to_DroneAOIs_20250108.csv filter=lfs diff=lfs merge=lfs -text
 Kelp_CentralCoast_DroneTimeSeries.gdb.zip filter=lfs diff=lfs merge=lfs -text
