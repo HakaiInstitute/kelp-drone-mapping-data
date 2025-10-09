@@ -2,13 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.0] - 2025-09-30
+## [1.0] - 2025-10-09
 
 Summary
 
 ### Added
 
-* Three data dictionaries in the root of the repository
-* Two files in the data folder: Kelp_CentralCoast_DroneTimeSeries.gdb.zip and Kelp_clipped_to_DroneAOIs_20250108.csv
-* Updated the readme to include a summary of the project, citation, and links to associated reports
+* Three data dictionaries, one for each layer in the geodatabase (GDB), in the docs folder
+* The compressed geodatabase file: CentralCoast_SeasonDroneKelpPolygons.gdb.zip
+* Updated Readme to include a summary of the project, citation, DOI for metadata, and links to associated reports
 * License
