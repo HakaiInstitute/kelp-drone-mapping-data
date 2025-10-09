@@ -28,7 +28,7 @@ This data package includes a geodatabase which contains:
 - Polygon vector features of canopy kelp 
 - Polygon vector features of the area of interest (AOI) of each monitoring site
 - A metadata report (.pdf) which describes methods for imagery collection, generating orthomosaics and delineating kelp extent.
-- Data dictionaries (.csv) which describe the attributes of the polygon vector features for canopy kelp. The data dictionaries are for the datasets included within the Kelp_CentralCoast_DroneTimeSeries.gdb
+- Data dictionaries (.csv) which describe the attributes of the polygon vector features for canopy kelp. The data dictionaries are for the datasets included within CentralCoast_SeasonalDroneKelpPolygons.gdb.zip
 
 ## How to contribute
 
