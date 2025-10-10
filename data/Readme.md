@@ -5,5 +5,5 @@ CentralCoast_SeasonalDroneKelpPolygons.gdb.zip, which includes:
 * Polygon vector features of canopy kelp
 * Polygon vector features of the area of interest (AOI) of each monitoring sites
 
-The data dictionaries for these files are found in the root of the repository.
+The data dictionaries for these layers are found in the `docs` folder.
 
