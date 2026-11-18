@@ -8,16 +8,16 @@
 
 https://doi.org/10.21966/9cbv-ra30
 
-This data package represents a time series of canopy area of giant kelp, _Macrocystis pyrifera_, and bull kelp, _Nereocystis luetkeana_, derived from remotely piloted aerial system (RPAS or drones) surveys from 2015 - 2024, along with relevant metadata. The kelp canopy is composed of the portions of fronds, stipes and blades floating on the surface of the water. RPAS surveys are conducted annually at long-term monitoring sites surveyed by the Hakai Institute on the Central Coast of British Columbia, Canada. These data are collected as part of the Hakai Institute Habitat Mapping Program whose broader goal is to document and understand long-term trends of kelp forests dynamics and drivers at local, regional and coast-wide scales. The Hakai Institute started using drones in 2015 as part of this work in order to capture site-level data on kelp forest distribution for long-term ecological research. 
+This data package represents a time series of canopy area of giant kelp, _Macrocystis pyrifera_, and bull kelp, _Nereocystis luetkeana_, derived from remotely piloted aerial system (RPAS or drones) surveys from 2015 - 2026, along with relevant metadata. The kelp canopy is composed of the portions of fronds, stipes and blades floating on the surface of the water. RPAS surveys are conducted annually at long-term monitoring sites surveyed by the Hakai Institute on the Central Coast of British Columbia, Canada. These data are collected as part of the Hakai Institute Habitat Mapping Program whose broader goal is to document and understand long-term trends of kelp forests dynamics and drivers at local, regional and coast-wide scales. The Hakai Institute started using drones in 2015 as part of this work in order to capture site-level data on kelp forest distribution for long-term ecological research. 
 
 This data package is freely available to everyone, following the principles of equitable access and benefit sharing. However, we expect all data users to give attribution to the data providers (read our data license) and the use of these data should happen in the light of fair use, i.e.: 1) respect the data providers, and provide helpful feedback on data quality, and 2) communicate and/or collaborate with the providers if you are considering using this dataset for manuscripts or other forms of reporting.
 
 ```
-Reshitnyk, L., & Holmes, K. (2025). Time series of surface kelp canopy area derived from remotely piloted aerial systems (RPAS, or drone) surveys, Central Coast, British Columbia (v1.0). Hakai Institute. https://doi.org/10.21966/9cbv-ra30
+Reshitnyk, L., & Holmes, K. (2026). Time series of surface kelp canopy area derived from remotely piloted aerial systems (RPAS, or drone) surveys, Central Coast, British Columbia (v1.1). Hakai Institute. https://doi.org/10.21966/9cbv-ra30
 ```
 ## Method
 
-Drone surveys are conducted annually in July/August during low tide (<1.5 m, chart datum) and collect RGB (red-green-blue) imagery. Canopy area is derived from drone-derived orthomosaics using a machine learning tool, the Kelp-O-Matic, which automates the detection of extent of kelp canopy area present in high-resolution orthomosaics. Areal data are classified to species level. Outputs are reviewed by a trained analyst. Canopy area (m2) data are provided as vector features (shapefiles) in NAD83 UTM Zone 9 clipped to each site area of interest (AOI) to ensure the same areas are compared over time and then published to a geodatabase. 
+Drone surveys are conducted annually in July/August during low tide (<1.5 m, chart datum) and collect RGB (red-green-blue) imagery. Canopy area is derived from drone-derived orthomosaics using a machine learning tool, Habitat-Mapper (formerly the Kelp-O-Matic), which automates the detection of extent of kelp canopy area present in high-resolution orthomosaics. Earlier surveys were delineated by pixel classification and/or manual digitizing; the method and tool version for each survey are recorded in the `delin_meth` attribute. Areal data are classified to species level. Outputs are reviewed by a trained analyst. Canopy area (m2) polygons are clipped to each site area of interest (AOI) to ensure the same areas are compared over time and published to a file geodatabase. The kelp polygons are in NAD83 / BC Albers (EPSG:3005); the AOI and site location layers are in NAD83(CSRS) / UTM zone 9N. Not every site is surveyed every year. 
 
 ## Reports
 
@@ -27,8 +27,9 @@ The metadata report associated with this dataset can be found [here](https://git
 
 This data package includes a geodatabase which contains: 
 
-- Polygon vector features of canopy kelp 
-- Polygon vector features of the area of interest (AOI) of each monitoring site
+- Polygon vector features of canopy kelp (`CentralCoast_DroneKelpPolygons_Seasonal_2015_2026`)
+- Polygon vector features of the area of interest (AOI) of each monitoring site (`Hakai_Drone_AOIs`)
+- Point vector features of the location of monitoring sites (`Hakai_CentralCoast_Permanent_kelp_monitoring_sites_locations`)
 - A metadata report (.pdf) which describes methods for imagery collection, generating orthomosaics and delineating kelp extent.
 - Data dictionaries (.csv) which describe the attributes of the polygon vector features for canopy kelp. The data dictionaries are for the datasets included within CentralCoast_SeasonalDroneKelpPolygons.gdb.zip
 
