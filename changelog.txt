@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1] - 2026-11-17
+
+Time series update: adds the 2025 and 2026 surveys and cleans up attribute values.
+
+### Added
+
+* 2025 surveys at 11 sites (Breaker, Golden, Manley/Womanley, Meay, North Beach, Ratatouille, Simonds, Stryker, Triquet, Triquetta, West Beach/Second Beach), classified with Kelp-O-Matic v0.13.1
+* 2026 surveys at 9 sites (Simonds and Stryker were not surveyed in 2026), classified with Habitat-Mapper v0.16.2 (Kelp-O-Matic was renamed Habitat-Mapper)
+* Meay 2020 RGB survey (20200708_Calvert_Meay_rgb_kelp.shp), which was missing from v1.0
+* Kelp layer renamed CentralCoast_DroneKelpPolygons_Seasonal_2015_2026; data dictionary renamed to match
+
+### Changed
+
+* Removed 20170607_CentralCoast_StirlingGroup_kelp.shp (23 polygons, 180 m2 inside the Breaker AOI); Breaker now starts in 2019
+* Standardised species names in ke_species and skp_species (15 spelling variants in v1.0 reduced to Macrocystis pyrifera, Nereocystis luetkeana, and Mixed for site level)
+* Standardised sensor names (DJI Phantom Pro 3 -> DJI Phantom 3 Pro, DJI Phantom Pro 4 -> DJI Phantom 4 Pro) and one analyst entry (SHT, LYR,. KRH -> SHT, LYR, KRH)
+* Removed leading/trailing whitespace from all text attributes (e.g. "High " -> "High")
+* Kelp polygons are stored without Z values (all Z values in v1.0 were 0)
+* Geometry repaired with ArcGIS Repair Geometry; ArcGIS Check Geometry reports no problems
+* Removed the image_date field, a date-time copy of img_date whose time component (midnight) did not reflect survey time; img_date (date only) is the survey date
+* Data dictionary: updated value lists for conf, delin_meth, img_src, sensor, ke_species, skp_species
+* README: year range, citation, method text (Habitat-Mapper; kelp polygons are in NAD83 / BC Albers, EPSG:3005, not UTM zone 9 as stated in v1.0), list of GDB layers
+
 ## [1.0] - 2025-10-09
 
 Summary
